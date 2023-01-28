@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-color: rgba(236, 207, 236, 0.623);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.hero {}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.logo {}
+
+.logo__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin: 0;
+}
+
+.nav__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(110, 110, 110);
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    padding: 15px 36px;
+    background: rgb(195, 0, 255);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.btn1 {
+    padding: 15px 36px;
+    background: rgb(195, 0, 255);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.hero__content {
+    max-width: 49%;
+    padding-top: 186px;
+}
+
+
+.hero__main {}
+
+.hero__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.lem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.18;
+}
+
+.hero__title {
+    margin-bottom: 25px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.hero__desc {
+    font-family: 'Hind Madurai', sans-serif;
+    margin-top: 40px;
+}
