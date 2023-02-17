@@ -63,7 +63,7 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 25px 0px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 
 .logo {
@@ -238,4 +238,58 @@ img {
     color: rgba(0, 0, 0, 0.7);
     font-weight: 400;
     line-height: 19px;
+}
+
+.hero-promo {
+    height: 75vh;
+    background-color:
+        rgba(244, 219, 252, 0.5);
+}
+.container-promo {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.content1 {
+    display: flex;
+
+}
+.content-desc1 {
+    width: 60%;
+    margin-top: 100px;
+
+}
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.17;
+}
+.content__title1 {
+    margin-bottom: 24px;
+}
+.content__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 42px;
+}
+.btn1 {
+    background-color: #F6762C;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 36px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    font-family: 'Roboto', sans-serif;
+}
+.content__decor1 {
+    max-height: 700px;
+    position: relative;
+}
+
+.content__img1 {
+    width: 600px;
+    height: 100%;
 }
